@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/images/pexels-dorota-semla-9091378.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+ 
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 2px black .3;
+    height: 50px;
+    background-color: crimson;
+
+}
+span{
+    color: white;
+    font-style: oblique;
+}
+header i{
+    font-size: 40px;
+    margin-right: 40px;
+    color: white
+}
+i:hover{
+    color: rgba(0,0,0,.5);
+}
+.overlay{
+    background-color: rgba(0,0,0,.5);
+height: 100vh;
+}
+h1{
+    font-size: 40px;
+    font-style: oblique;
+    margin-left: 20px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+section .para{
+    width: 700px;
+    text-align: justify;
+    margin-left: 30px;
+    font-size:1.7rem;
+    margin-top: 100px;
+    color: #fff;
+}
+
+
+
+.pic img{
+    width: 100%;
+    height:100vh;
+
+}
